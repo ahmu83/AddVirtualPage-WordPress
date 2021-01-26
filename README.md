@@ -10,6 +10,8 @@ Currently this only adds a simple virtual page without any parameters, but this 
 
 `new AddVirtualPage('custom-url-slug', $template_path);`
 
+The `$template_path` should be a fully qualified template path
+
 This will add a new virtual page: domain.com/custom-url-slug/
 
 Don't forget to clear your permalink cache for the new virtual page to work
