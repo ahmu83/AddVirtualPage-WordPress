@@ -8,8 +8,10 @@ Currently this only adds a simple virtual page without any parameters, but this 
 
 # Usage
 
-`$template_path = get_stylesheet_directory() . '/custom-pages/the-template.php';`
-`new AddVirtualPage('custom-url-slug', $template_path);`
+```
+$template_path = get_stylesheet_directory() . '/custom-pages/the-template.php';
+new AddVirtualPage('custom-url-slug', $template_path);
+```
 
 The `$template_path` should be a fully qualified template path
 
